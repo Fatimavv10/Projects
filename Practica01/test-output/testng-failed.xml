@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.magento.tests.RegisterTest">
+        <methods>
+          <include name="TCRegister04_02"/>
+          <include name="TCRegister02"/>
+          <include name="tearDown"/>
+          <include name="TCRegister01"/>
+          <include name="TCRegister04_01"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.magento.tests.RegisterTest -->
+      <class name="com.magento.tests.OrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="TCOrder02"/>
+        </methods>
+      </class> <!-- com.magento.tests.OrderTest -->
+      <class name="com.magento.tests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TCLogin03"/>
+          <include name="TCLogin01"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.magento.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
